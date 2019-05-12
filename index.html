@@ -34,7 +34,13 @@
         $( ".fa-search" ).click(function(){
             $(".header_search").toggleClass("header_search_visible");    
         });
-    });   
+    }); 
+    $(function(){
+        $( ".fa-search" ).click(function(){
+            $(".container-fluid").toggleClass("body_nav_visible");
+
+        });
+    });
         
     </script>
     
@@ -50,7 +56,7 @@
     
     <div class ="header_search">
         <input id = "search_aerea" type="text" name="search_value" placeholder="Įveskite tekstą ir paspauskite ENTER" autofocus>
-        <a><i class = "fas fa-times" href = ""></i></a>
+        <a class = "fas fa-times" href = ""></a>
     </div>
     
     <div class="container-fluid">
@@ -133,17 +139,17 @@
         <div id="footer">
                 <table>
                     <tr>
-                        <td><a href = "#" class="fab fa-facebook-f"></a></td> 
-                        <td><a href = "#" class="fab fa-instagram"></a></td>
-                        <td><a href = "#" class="fab fa-pinterest"></a></td>
-                        <td><a href = "#" class="fab fa-github"></a></td>
+                        <td><a href = "https://www.facebook.com/" class="fab fa-facebook-f" target="_blank"></a></td> 
+                        <td><a href = "https://www.instagram.com/" class="fab fa-instagram" target="_blank"></a></td>
+                        <td><a href = "https://www.pinterest.com/" class="fab fa-pinterest" target="_blank"></a></td>
+                        <td><a href = "https://github.com/" class="fab fa-github" target="_blank"></a></td>
                     </tr>
                 </table>    
         </div>
     </div>
         <div class="navigation">
             <ul class="navigation_list">
-                <li><a class = "fas fa-times" href = ""></a></li>
+                <li><a class="fas fa-times" href = ""></a></li>
                 <li><a class="list_item" href = "">Receptai</a></li>
                 <li><a class="list_item" href = "">Gėlės</a></li>
                 <li><a class="list_item" href = "">Vaikai</a></li>
