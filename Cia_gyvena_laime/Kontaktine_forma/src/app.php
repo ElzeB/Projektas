@@ -6,17 +6,17 @@
    $message = trim($_POST['message']);
 
     if(!empty($vardas) && !empty($email) && !empty($message)) {
-       // if(filter_var($email, FILTER_VALIDATE_EMAIL)) {
-       //  $from = "$email";
-       //  $to = "bernackyte@gmail.com";
-       //  $subject = "Nauja žinutė";
-       //  $autorius = 'Nuo: ' . $vardas . ',' . $email;
-       //  $zinute = htmlspecialchars($message);
-       //  mail($to, $subject, $autorius, $zinute, $from);
-       // 
-       //     
+       if(filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        $from = "$email";
+        $to = "bernackyte@gmail.com";
+        $subject = "Nauja žinutė";
+        $autorius = 'Nuo: ' . $vardas . ',' . $email;
+        $zinute = htmlspecialchars($message);
+        mail($to, $subject, $autorius, $zinute, $from);
+       
+           
            echo "<script>alert('Ačiū už Jūsų žinutę!');</script>";
-      // }
+       }
    }
    include('db.php');
    }
