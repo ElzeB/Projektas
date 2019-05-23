@@ -15,32 +15,35 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.0.min.js"></script>
-    
-    <script> 
-    $(function(){
-        $( ".fa-bars" ).click(function(){
-            $(".navigation").toggleClass("nav_visible");
-        });
-    });
-    $(function(){
-        $( ".fa-bars" ).click(function(){
-            $(".container-fluid").toggleClass("body_nav_visible");
-            
-        });
-    });
-    $(function(){
-        $( ".fa-search" ).click(function(){
-            $(".header_search").toggleClass("header_search_visible");    
-        });
-    }); 
-    $(function(){
-        $( ".fa-search" ).click(function(){
-            $(".container-fluid").toggleClass("body_nav_visible");
+    <script>
+   
+	      $(function(){
+	          $( ".fa-bars" ).click(function(){
+	              $(".navigation").toggleClass("nav_visible");
+	          });
+	      });
+	          
+	      $(function(){
+	          $( ".fa-bars" ).click(function(){
+	              $(".container-fluid").toggleClass("body_nav_visible");
+	              
+	          });
+	      });
+	          
+	      $(function(){
+	          $( ".fa-search" ).click(function(){
+	              $(".header_search").toggleClass("header_search_visible");    
+	          });
+	      }); 
+	          
+	      $(function(){
+	          $( ".fa-search" ).click(function(){
+	              $(".container-fluid").toggleClass("body_nav_visible");
 
-        });
-    });
-        
-    </script>
+	          });
+	      });
+	          
+	</script>
     
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     
@@ -50,7 +53,7 @@
     
     <div id ="header">
         <a ><i class="fas fa-bars"></i></a>
-        <a id ="logo" href = "">Čia gyvena laimė</a>
+        <div id ="logo">Čia gyvena laimė</div>
         <a><i class="fas fa-search"></i></a>  
     </div>
     
@@ -64,9 +67,9 @@
             <div class="row no-gutters">
                 <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                     <div class="hovereffect">
-                        <img src="nuotraukos/monstera.jpg" alt="monstera">
+                         <img src="nuotraukos/avocado.jpg" alt="avocado">
                             <div class="overlay">
-                                <a class="info" href="#">Kambariniai augalai</a>
+                                <a class="info" href="Sumustiniai/index.html">Nuostabiausi sumuštiniai</a>
                             </div>
                     </div>
                 </div>
@@ -74,47 +77,7 @@
                     <div class="hovereffect">
                         <img src="nuotraukos/bread.jpg" alt="bread">
                             <div class="overlay">
-                                <a class="info" href="Sourdough duona/index.html">Sourdough duona</a>
-                            </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                    <div class="hovereffect">
-                        <img src="nuotraukos/eggs.jpg" alt="eggs">
-                            <div class="overlay">
-                                <a class="info" href="#">Gyvenimas kaime</a>
-                            </div>
-                        </div>
-                    </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                    <div class="hovereffect">
-                        <img src="nuotraukos/borzoi.jpg" alt="dog">
-                            <div class="overlay">
-                                <a class="info" href="#">Šuo tavo gyvenime</a>
-                            </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                    <div class="hovereffect">
-                        <img src="nuotraukos/pancakes.jpg" alt="pancakes">
-                            <div class="overlay">
-                                <a class="info" href="#">Avižiniai blynai</a>
-                            </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                    <div class="hovereffect">
-                        <img src="nuotraukos/scones.jpg" alt="scones">
-                            <div class="overlay">
-                                <a class="info" href="#">Angliški "Scones"</a>
-                            </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                    <div class="hovereffect">
-                        <img src="nuotraukos/cereal.jpg" alt="cereal">
-                            <div class="overlay">
-                                <a class="info" href="#">Pusryčiai darželyje</a>
+                                <a class="info" href="Sourdough_duona/index.html">Sourdough duona</a>
                             </div>
                     </div>
                 </div>
@@ -122,15 +85,55 @@
                     <div class="hovereffect">
                         <img src="nuotraukos/oats.jpg" alt="oats">
                             <div class="overlay">
-                                <a class="info" href="#">Avižų kruopų košė</a>
+                                <a class="info" href="Avizu_kruopu_kose/index.html">Avižų kruopų košė</a>
+                            </div>
+                        </div>
+                    </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="hovereffect">
+                        <img src="nuotraukos/pancakes.jpg" alt="pancakes">
+                            <div class="overlay">
+                                <a class="info" href="Aviziniai_blynai/index.html">Avižiniai blynai</a>
                             </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                     <div class="hovereffect">
-                        <img src="nuotraukos/avocado.jpg" alt="avocado">
+                        <img src="nuotraukos/scones.jpg" alt="scones">
                             <div class="overlay">
-                                <a class="info" href="#">Nuostabiausi sumuštiniai</a>
+                                <a class="info" href="Scones/index.html">Angliški "Scones"</a>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="hovereffect">
+                        <img src="nuotraukos/borzoi.jpg" alt="dog">
+                            <div class="overlay">
+                                <a class="info" href="Suo/index.html">Šuo tavo gyvenime</a>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="hovereffect">
+                        <img src="nuotraukos/cereal.jpg" alt="cereal">
+                            <div class="overlay">
+                                <a class="info" href="Pusryciai_darzelyje/index.html">Pusryčiai darželyje</a>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="hovereffect">
+                        <img src="nuotraukos/eggs.jpg" alt="eggs">
+                            <div class="overlay">
+                                <a class="info" href="Pusryciai_darzelyje/index.html">Gyvenimas kaime</a>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="hovereffect">
+                        <img src="nuotraukos/monstera.jpg" alt="monstera">
+                            <div class="overlay">
+                                <a class="info" href="Pusryciai_darzelyje/index.html">Kambariniai augalai</a>
                             </div>
                     </div>
                 </div>
@@ -154,7 +157,7 @@
             <li><a class="list_item" href = "">Gėlės</a></li>
             <li><a class="list_item" href = "">Vaikai</a></li>
             <li><a class="list_item" href = "">Laisvalaikis</a></li>
-            <li><a class="list_item" href = "Kontaktine forma/index.php">Parašykite man</a></li>
+            <li><a class="list_item" href = "Kontaktine_forma/index.php">Parašykite man</a></li>
         </ul>  
     </div> 
 
