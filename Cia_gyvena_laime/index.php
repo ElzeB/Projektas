@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="lt">
     
 <head>
     <meta charset="utf-8">
@@ -42,7 +42,31 @@
 
 	          });
 	      });
-	          
+        
+        $(function(){
+            $( "#tik_maistas" ).click(function(){
+                $("#geles, #vaikai, #laisvalaikis, .navigation").hide(100);
+            });
+        });
+        
+        $(function(){
+            $( "#tik_geles" ).click(function(){
+                $(" #vaikai, #maistas, .navigation").hide(100);
+            });
+        });
+        
+        $(function(){
+            $( "#tik_vaikai" ).click(function(){
+                $("#geles, #laisvalaikis, #maistas, .navigation").hide(100);
+            });
+        });
+        
+        $(function(){
+            $( "#tik_laisvalaikis" ).click(function(){
+                $(" #geles, #vaikai, #maistas, .navigation").hide(100);
+            });
+        });
+        
 	</script>
     
     <link href="css/styles.css" rel="stylesheet" type="text/css">
@@ -50,11 +74,10 @@
 </head>
 
 <body>
-    
-    <div id ="header">
-        <a ><i class="fas fa-bars"></i></a>
-        <div id ="logo">Čia gyvena laimė</div>
-        <a><i class="fas fa-search"></i></a>  
+    <div id = "header">
+        <div><a class="fas fa-bars"></a></div>
+        <div><a id ="logo" href="index.php">Čia gyvena laimė</a></div>
+        <div><a class="fas fa-search"></a></div>
     </div>
     
     <div class ="header_search">
@@ -65,76 +88,76 @@
     <div class="container-fluid">
         <div class="row ">
             <div class="row no-gutters">
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div id="maistas" class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                     <div class="hovereffect">
                          <img src="nuotraukos/avocado.jpg" alt="avocado">
-                            <div class="overlay">
-                                <a class="info" href="Sumustiniai/index.html">Nuostabiausi sumuštiniai</a>
-                            </div>
+                            <a href="Sumustiniai.html" class="overlay">
+                                <div class="info">Nuostabiausi sumuštiniai</div>
+                            </a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div id="maistas"class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                     <div class="hovereffect">
                         <img src="nuotraukos/bread.jpg" alt="bread">
-                            <div class="overlay">
-                                <a class="info" href="Sourdough_duona/index.html">Sourdough duona</a>
-                            </div>
+                            <a href="Sourdough_duona.html" class="overlay">
+                                <div class="info" >Sourdough duona</div>
+                            </a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div id="maistas" class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                     <div class="hovereffect">
                         <img src="nuotraukos/oats.jpg" alt="oats">
-                            <div class="overlay">
-                                <a class="info" href="Avizu_kruopu_kose/index.html">Avižų kruopų košė</a>
-                            </div>
+                            <a href="Avizu_kruopu_kose.html" class="overlay">
+                                <div class="info" >Avižų kruopų košė</div>
+                            </a>
                         </div>
                     </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div id="vakai" class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                     <div class="hovereffect">
                         <img src="nuotraukos/pancakes.jpg" alt="pancakes">
-                            <div class="overlay">
-                                <a class="info" href="Aviziniai_blynai/index.html">Avižiniai blynai</a>
-                            </div>
+                            <a href="Aviziniai_blynai.html" class="overlay">
+                                <div class="info" >Avižiniai blynai</div>
+                            </a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div id="vaikai" class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                     <div class="hovereffect">
                         <img src="nuotraukos/scones.jpg" alt="scones">
-                            <div class="overlay">
-                                <a class="info" href="Scones/index.html">Angliški "Scones"</a>
-                            </div>
+                            <a href="Scones.html" class="overlay">
+                                <div class="info" >Angliški "Scones"</div>
+                            </a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div id="laisvalaikis" class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                     <div class="hovereffect">
                         <img src="nuotraukos/borzoi.jpg" alt="dog">
-                            <div class="overlay">
-                                <a class="info" href="Suo/index.html">Šuo tavo gyvenime</a>
-                            </div>
+                            <a href="Suo.html" class="overlay">
+                                <div class="info" >Šuo tavo gyvenime</div>
+                            </a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div id="vaikai" class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                     <div class="hovereffect">
                         <img src="nuotraukos/cereal.jpg" alt="cereal">
-                            <div class="overlay">
-                                <a class="info" href="Pusryciai_darzelyje/index.html">Pusryčiai darželyje</a>
-                            </div>
+                            <a href="Pusryciai_darzelyje.html" class="overlay">
+                                <div class="info" >Pusryčiai darželyje</div>
+                            </a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div id="laisvalaikis" class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                     <div class="hovereffect">
                         <img src="nuotraukos/eggs.jpg" alt="eggs">
-                            <div class="overlay">
-                                <a class="info" href="Pusryciai_darzelyje/index.html">Gyvenimas kaime</a>
-                            </div>
+                            <a href="Pusryciai_darzelyje.html" class="overlay">
+                                <div class="info" >Gyvenimas kaime</div>
+                            </a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div id="laisvalaikis" class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                     <div class="hovereffect">
                         <img src="nuotraukos/monstera.jpg" alt="monstera">
-                            <div class="overlay">
-                                <a class="info" href="Pusryciai_darzelyje/index.html">Kambariniai augalai</a>
-                            </div>
+                            <a href="Pusryciai_darzelyje.html" class="overlay">
+                                <div class="info" >Kambariniai augalai</div>
+                            </a>
                     </div>
                 </div>
             </div>
@@ -153,10 +176,10 @@
     <div class="navigation">
         <ul class="navigation_list">
             <li><a class="fas fa-times" href = ""></a></li>
-            <li><a class="list_item" href = "">Receptai</a></li>
-            <li><a class="list_item" href = "">Gėlės</a></li>
-            <li><a class="list_item" href = "">Vaikai</a></li>
-            <li><a class="list_item" href = "">Laisvalaikis</a></li>
+            <li><a class="list_item" id="tik_maistas">Receptai</a></li>
+            <li><a class="list_item" id="tik_geles">Gėlės</a></li>
+            <li><a class="list_item" id="tik_vaikai">Vaikai</a></li>
+            <li><a class="list_item" id="tik_laisvalaikis">Laisvalaikis</a></li>
             <li><a class="list_item" href = "Kontaktine_forma/index.php">Parašykite man</a></li>
         </ul>  
     </div> 

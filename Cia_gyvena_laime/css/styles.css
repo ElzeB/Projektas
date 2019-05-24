@@ -8,7 +8,13 @@
 	color: #000000;
 	cursor: pointer;
 }
+.fa-bars {
+    margin-left: 0;
+}
 
+.fa-search {
+    margin-right: 0;
+}
 #header {
 	position: fixed;
 	text-align: center;
@@ -132,7 +138,7 @@ img {
 	transition: all .4s linear;
 }
 
-.hovereffect a.info {
+.hovereffect div.info {
 	text-decoration: none;
 	display: inline-block;
 	text-transform: uppercase;
@@ -159,7 +165,7 @@ img {
 	filter: alpha(opacity=100);
 }
 
-.hovereffect:hover a.info {
+.hovereffect:hover div.info {
 	opacity: 1;
 	filter: alpha(opacity=100);
 	-ms-transform: translatey(0);
@@ -199,6 +205,7 @@ img {
 	color: black;
 	font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, bold, sans-serif;
 	font-weight: bold;
+    cursor: pointer;
 }
 
 .nav_visible {

@@ -50,6 +50,14 @@
     cursor: pointer;
 }
 
+.fa-bars {
+    margin-left: 0;
+}
+
+.fa-search {
+    margin-right: 0;
+}
+
 #header {
     position: fixed;
     text-align: center;
@@ -105,6 +113,11 @@
  
 }
 
+@media screen and (max-width: 375px) {
+    #logo {
+    font-size: 15px;  
+    }
+    
 #footer {
     position: absolute;
     text-align: center;
