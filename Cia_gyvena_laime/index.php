@@ -80,7 +80,7 @@
         <div><a class="fas fa-search"></a></div>
     </div>
     
-    <div class = "header_search">
+    <div class ="header_search">
         <input id = "search_aerea" type="text" name="search_value" placeholder="Įveskite tekstą ir paspauskite ENTER" autofocus>
         <a class = "fas fa-times" href = ""></a>
     </div>
