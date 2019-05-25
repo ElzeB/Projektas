@@ -8,10 +8,13 @@
 	<meta content="width=device-width, initial-scale=1.0" name="viewport">
 	<meta content="PHP forma" name="description">
 	<title>Forma</title>
+    
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" rel="stylesheet">
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
 	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.0.min.js"></script>
-    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="../css/styles.css" rel="stylesheet" type="text/css">
+    
 	<script>
 
           $(function(){
@@ -36,7 +39,7 @@
 
               });
           });
-	                                         
+        
 	</script>
 </head>
 <body>
@@ -46,18 +49,20 @@
         <div><a class="fas fa-search"></a></div>
     </div>
 	<div class="header_search">
-		<input id="search_aerea" name="search_value" placeholder="Įveskite tekstą ir paspauskite ENTER" type="text"> <a class="fas fa-times" href=""></a>
+		<input id="search_aerea" name="search_value" placeholder="Įveskite tekstą ir paspauskite ENTER" type="text"> 
+        <a class="fas fa-times" href=""></a>
 	</div>
 	<main>
 		<div class="container">
 			<form action="index.php" id="contact" method="post" name="contact">
-				<div class="formos_antraste p-4">Parašykite man</div>
+				<div class="formos_antraste p-4 font-weight-bold">Parašykite man</div>
 				<p><input name="vardas" type="text" placeholder="Jūsų vardas" required autofocus></p>
 				<p><input name="email" type="email" placeholder="Jūsų el. pašto adresas" required></p>
 				<p><textarea name="message" placeholder="Jūsų žinutė" required></textarea></p>
 				<p><button id="contact-submit" name="submit" type="submit">Siųsti</button></p>
 			</form>
-		</div>
+        </div>
+		
 		<div id="footer">
 			<table>
 				<tr>
@@ -76,28 +81,16 @@
 				</tr>
 			</table>
 		</div>
-		<div class="navigation">
-			<ul class="navigation_list">
-				<li>
-					<a class="fas fa-times" href=""></a>
-				</li>
-				<li>
-					<a class="list_item" href="">Receptai</a>
-				</li>
-				<li>
-					<a class="list_item" href="">Gėlės</a>
-				</li>
-				<li>
-					<a class="list_item" href="">Vaikai</a>
-				</li>
-				<li>
-					<a class="list_item" href="">Laisvalaikis</a>
-				</li>
-				<li>
-					<a class="list_item" href="">Parašykite man</a>
-				</li>
-			</ul>
-		</div>
+		 <div class="navigation">
+            <ul class="navigation_list">
+                <li><a class="fas fa-times" href = ""></a></li>
+                <li><a class="list_item" href="">Receptai</a></li>
+                <li><a class="list_item" href="">Gėlės</a></li>
+                <li><a class="list_item" href="">Vaikai</a></li>
+                <li><a class="list_item" href="">Laisvalaikis</a></li>
+                <li><a class="list_item" href = "Kontaktine_forma/index.php">Parašykite man</a></li>
+            </ul>  
+        </div> 
 	</main>
 </body>
 </html>

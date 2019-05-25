@@ -9,11 +9,11 @@
 	cursor: pointer;
 }
 .fa-bars {
-    margin-left: 0;
+    left: 0;
 }
 
 .fa-search {
-    margin-right: 0;
+    right: 0;
 }
 #header {
 	position: fixed;
@@ -254,3 +254,52 @@ a.fa-github:hover:before {
 	background-color: #f5f5f0;
 	height: 100%;
 }
+
+/*START kontaktinė forma */
+.container {
+	max-width:400px;
+	width:100%;
+	margin:0 auto;
+	position:relative;
+    padding: 40px;
+}
+
+#contact {
+	background:#FFFFFF;
+	padding:25px;
+	margin:20px 0;
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,bold,sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 0.5em;
+    text-align: center;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact textarea { 
+    font:400 12px/16px Calibri,Candara,Segoe,Segoe UI,Optima,Arial,bold,sans-serif; 
+	width:100%;
+	border: none;
+    outline: none;
+	background:#FFFFFF;
+	margin:0 0 15px;
+	padding:10px;
+}
+
+#contact button[type="submit"] {
+    font:400 12px/16px Calibri,Candara,Segoe,Segoe UI,Optima,Arial,bold,sans-serif; 
+	width:100%;
+	border: 1px solid #AAA;
+	background:#FFFFFF;
+	margin:0 0 5px;
+	padding:10px;
+}
+
+#contact button[type="submit"]:hover {
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid black;
+    
+}
+
+/*END kontaktinė forma */
