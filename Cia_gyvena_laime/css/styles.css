@@ -10,10 +10,14 @@
 }
 .fa-bars {
     left: 0;
+    position: relative;
+    width: 15px;
 }
 
 .fa-search {
     right: 0;
+    position: relative;
+    width: 15px;
 }
 #header {
 	position: fixed;
