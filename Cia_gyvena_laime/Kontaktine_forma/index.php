@@ -43,7 +43,7 @@
 	</script>
 </head>
 <body>
-    <div id = "header">
+    <div id = "header-contact-form">
         <div><a class="fas fa-bars"></a></div>
         <div><a id ="logo" href="../index.php">Čia gyvena laimė</a></div>
         <div><a class="fas fa-search"></a></div>

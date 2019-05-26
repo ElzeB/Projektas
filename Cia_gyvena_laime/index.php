@@ -88,7 +88,7 @@
     <div class="container-fluid">
         <div class="row ">
             <div class="row no-gutters">
-                <div id="maistas" class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                     <div class="hovereffect">
                          <img src="nuotraukos/avocado.jpg" alt="avocado">
                             <a href="Sumustiniai.html" class="overlay">
@@ -96,7 +96,7 @@
                             </a>
                     </div>
                 </div>
-                <div id="maistas"class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                     <div class="hovereffect">
                         <img src="nuotraukos/bread.jpg" alt="bread">
                             <a href="Sourdough_duona.html" class="overlay">
@@ -104,7 +104,7 @@
                             </a>
                     </div>
                 </div>
-                <div id="maistas" class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                     <div class="hovereffect">
                         <img src="nuotraukos/oats.jpg" alt="oats">
                             <a href="Avizu_kruopu_kose.html" class="overlay">
@@ -112,7 +112,7 @@
                             </a>
                         </div>
                     </div>
-                <div id="vakai" class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                     <div class="hovereffect">
                         <img src="nuotraukos/pancakes.jpg" alt="pancakes">
                             <a href="Aviziniai_blynai.html" class="overlay">
@@ -120,7 +120,7 @@
                             </a>
                     </div>
                 </div>
-                <div id="vaikai" class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                     <div class="hovereffect">
                         <img src="nuotraukos/scones.jpg" alt="scones">
                             <a href="Scones.html" class="overlay">
@@ -128,7 +128,7 @@
                             </a>
                     </div>
                 </div>
-                <div id="laisvalaikis" class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                     <div class="hovereffect">
                         <img src="nuotraukos/borzoi.jpg" alt="dog">
                             <a href="Suo.html" class="overlay">
@@ -136,7 +136,7 @@
                             </a>
                     </div>
                 </div>
-                <div id="vaikai" class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                     <div class="hovereffect">
                         <img src="nuotraukos/cereal.jpg" alt="cereal">
                             <a href="Pusryciai_darzelyje.html" class="overlay">
@@ -144,7 +144,7 @@
                             </a>
                     </div>
                 </div>
-                <div id="laisvalaikis" class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                     <div class="hovereffect">
                         <img src="nuotraukos/eggs.jpg" alt="eggs">
                             <a href="Pusryciai_darzelyje.html" class="overlay">
@@ -152,7 +152,7 @@
                             </a>
                     </div>
                 </div>
-                <div id="laisvalaikis" class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                     <div class="hovereffect">
                         <img src="nuotraukos/monstera.jpg" alt="monstera">
                             <a href="Pusryciai_darzelyje.html" class="overlay">
@@ -176,10 +176,9 @@
     <div class="navigation">
         <ul class="navigation_list">
             <li><a class="fas fa-times" href = ""></a></li>
-            <li><a class="list_item" id="tik_maistas">Receptai</a></li>
-            <li><a class="list_item" id="tik_geles">Gėlės</a></li>
-            <li><a class="list_item" id="tik_vaikai">Vaikai</a></li>
-            <li><a class="list_item" id="tik_laisvalaikis">Laisvalaikis</a></li>
+            <li><a class="list_item" href="Kategorijos/Receptai.html">Receptai</a></li>
+            <li><a class="list_item" href="Kategorijos/Vaikai.html">Vaikai</a></li>
+            <li><a class="list_item" href="Kategorijos/Laisvalaikis.html">Laisvalaikis</a></li>
             <li><a class="list_item" href = "Kontaktine_forma/index.php">Parašykite man</a></li>
         </ul>  
     </div> 
