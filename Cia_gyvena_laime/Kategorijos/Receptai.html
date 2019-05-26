@@ -25,8 +25,7 @@
 	          
 	      $(function(){
 	          $( ".fa-bars" ).click(function(){
-	              $(".container-fluid").toggleClass("body_nav_visible");
-	              
+	              $(".container-fluid").toggleClass("body_nav_visible"); 
 	          });
 	      });
 	          
@@ -39,9 +38,22 @@
 	      $(function(){
 	          $( ".fa-search" ).click(function(){
 	              $(".container-fluid").toggleClass("body_nav_visible");
-
 	          });
 	      });
+        
+         $(document).ready(function() {
+            var elem = document.getElementById("myBar");   
+            var width = 1;
+            var id = setInterval(frame, 10);
+            function frame() {
+                if (width >= 100) {
+                  clearInterval(id);
+                } else {
+                  width++; 
+                  elem.style.width = width + '%'; 
+                }
+            }
+        });
         
 	</script>
     
@@ -59,6 +71,10 @@
     <div class ="header_search">
         <input id = "search_aerea" type="text" name="search_value" placeholder="Įveskite tekstą ir paspauskite ENTER" autofocus>
         <a class = "fas fa-times" href = ""></a>
+    </div>
+    
+    <div id="myProgress">
+        <div id="myBar"></div>
     </div>
     
     <div id="category-name">

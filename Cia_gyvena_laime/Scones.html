@@ -12,40 +12,36 @@
 	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.0.min.js">
 	</script>
 	<script>
-	          
-	      $(function(){
-	          $( ".fa-bars" ).click(function(){
-	              $(".navigation").toggleClass("nav_visible");
-	          });
-	      });
-	          
-	      $(function(){
-	          $( ".fa-bars" ).click(function(){
-	              $(".container-fluid").toggleClass("body_nav_visible");
-	              
-	          });
-	      });
-	          
-	      $(function(){
-	          $( ".fa-search" ).click(function(){
-	              $(".header_search").toggleClass("header_search_visible");    
-	          });
-	      }); 
-	          
-	      $(function(){
-	          $( ".fa-search" ).click(function(){
-	              $(".container-fluid").toggleClass("body_nav_visible");
-
-	          });
-	      });   
+	             
+	         $(function(){
+	             $( ".fa-bars" ).click(function(){
+	                 $(".navigation").toggleClass("nav_visible");
+	             });
+	         });
+	             
+	         $(function(){
+	             $( ".fa-bars" ).click(function(){
+	                 $(".container-fluid").toggleClass("body_nav_visible"); 
+	             });
+	         });
+	             
+	         $(function(){
+	             $( ".fa-search" ).click(function(){
+	                 $(".header_search").toggleClass("header_search_visible");    
+	             });
+	         }); 
+	             
+	         $(function(){
+	             $( ".fa-search" ).click(function(){
+	                 $(".container-fluid").toggleClass("body_nav_visible");
+	             });
+	         });   
 	</script>
 </head>
 <body>
-     <div id ="header">
-        <a ><i class="fas fa-bars"></i></a>
-        <a id ="logo" href = "index.php">Čia gyvena laimė</a>
-        <a><i class="fas fa-search"></i></a>  
-    </div>
+	<div id="header">
+		<a><i class="fas fa-bars"></i></a> <a href="index.php" id="logo">Čia gyvena laimė</a> <a><i class="fas fa-search"></i></a>
+	</div>
 	<div class="header_search">
 		<input autofocus="" id="search_aerea" name="search_value" placeholder="Įveskite tekstą ir paspauskite ENTER" type="text"> <a class="fas fa-times" href=""></a>
 	</div>

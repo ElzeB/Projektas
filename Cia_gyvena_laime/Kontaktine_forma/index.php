@@ -40,7 +40,7 @@
               });
           });
         
-       $(document).ready(function()  {
+       $(document).ready(function() {
             var elem = document.getElementById("myBar");   
             var width = 1;
             var id = setInterval(frame, 10);
