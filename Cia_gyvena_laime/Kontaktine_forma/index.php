@@ -40,10 +40,24 @@
               });
           });
         
+       $(document).ready(function()  {
+            var elem = document.getElementById("myBar");   
+            var width = 1;
+            var id = setInterval(frame, 10);
+            function frame() {
+                if (width >= 100) {
+                  clearInterval(id);
+                } else {
+                  width++; 
+                  elem.style.width = width + '%'; 
+                }
+            }
+        });
+        
 	</script>
 </head>
 <body>
-    <div id = "header-contact-form">
+    <div id = "header">
         <div><a class="fas fa-bars"></a></div>
         <div><a id ="logo" href="../index.php">Čia gyvena laimė</a></div>
         <div><a class="fas fa-search"></a></div>
@@ -52,6 +66,9 @@
 		<input id="search_aerea" name="search_value" placeholder="Įveskite tekstą ir paspauskite ENTER" type="text"> 
         <a class="fas fa-times" href=""></a>
 	</div>
+    <div id="myProgress">
+        <div id="myBar"></div>
+    </div>
 	<main>
 		<div class="container">
 			<form action="index.php" id="contact" method="post" name="contact">
